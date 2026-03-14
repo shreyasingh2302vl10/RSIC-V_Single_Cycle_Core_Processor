@@ -2,7 +2,7 @@
 ![Processor Screenshot](https://github.com/shreyasingh2302vl10/RSIC-V_Single_Cycle_Core_Processor/blob/f586dac7571ff769b90da84f7710f6b093f5a43c/Screenshot%202026-03-15%20002124.png)
 # Truth Table
 ![Processor Screenshot](https://github.com/shreyasingh2302vl10/RSIC-V_Single_Cycle_Core_Processor/blob/414ea78f98d4171f53b443363d50b39d9e07d0e6/Screenshot%202026-03-15%20002139.png)
-
+# CODE
 ```verilog
 `timescale 1ns / 1ps
 module main_decoder(op,zero,RegWrite,Memwrite,ResultSrc,ALUSrc,ImmSrc,ALUOp,PCSrc);
