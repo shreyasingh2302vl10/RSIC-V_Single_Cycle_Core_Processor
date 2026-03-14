@@ -1,4 +1,4 @@
-![Processor Screenshot](https://github.com/shreyasingh2302vl10/RSIC-V_Single_Cycle_Core_Processor/blob/af347cb8d92c6dfbe8c8d8b984fb929b13d19bc2/Screenshot%202026-03-13%20004748.png?raw=true)
+![Processor Screenshot](https://github.com/shreyasingh2302vl10/RSIC-V_Single_Cycle_Core_Processor/blob/8b0adca9bbece5af2cdf849c8f17d99a7194ecb9/Screenshot%202026-03-14%20141601.png)
 
 # ALU
 ```verilog
