@@ -1,7 +1,9 @@
 # ALU DECODER
+## TRUTH TABLE
+
 ![Processor Screenshot](https://github.com/shreyasingh2302vl10/RSIC-V_Single_Cycle_Core_Processor/blob/cec7a6e704807285406621c8226769f7490d2d0a/Screenshot%202026-03-15%20003153.png
 )
-# TRUTH TABLE
+# CODE
 ```verilog
 `timescale 1ns / 1ps
 module alu_decoder(ALUOp,op5,funct3,funct7,control);
