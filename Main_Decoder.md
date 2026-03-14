@@ -1,7 +1,7 @@
 # Main Decoder
-![Processor Screenshot](https://github.com/shreyasingh2302vl10/RSIC-V_Single_Cycle_Core_Processor/blob/8b0adca9bbece5af2cdf849c8f17d99a7194ecb9/Screenshot%202026-03-14%20141601.png)
+![Processor Screenshot](https://github.com/shreyasingh2302vl10/RSIC-V_Single_Cycle_Core_Processor/blob/f586dac7571ff769b90da84f7710f6b093f5a43c/Screenshot%202026-03-15%20002124.png)
 # Truth Table
-![Processor Screenshot](https://github.com/shreyasingh2302vl10/RSIC-V_Single_Cycle_Core_Processor/blob/8b0adca9bbece5af2cdf849c8f17d99a7194ecb9/Screenshot%202026-03-14%20141601.png)
+![Processor Screenshot](https://github.com/shreyasingh2302vl10/RSIC-V_Single_Cycle_Core_Processor/blob/f586dac7571ff769b90da84f7710f6b093f5a43c/Screenshot%202026-03-15%20002124.png)
 
 ```verilog
 `timescale 1ns / 1ps
