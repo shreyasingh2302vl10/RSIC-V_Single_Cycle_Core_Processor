@@ -1,3 +1,5 @@
+![Processor Screenshot](https://github.com/shreyasingh2302vl10/RSIC-V_Single_Cycle_Core_Processor/blob/af347cb8d92c6dfbe8c8d8b984fb929b13d19bc2/Screenshot%202026-03-13%20004748.png?raw=true)
+
 # ALU
 ```verilog
 `timescale 1ns / 1ps
