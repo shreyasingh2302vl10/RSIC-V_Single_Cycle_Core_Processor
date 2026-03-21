@@ -42,30 +42,30 @@ assign n=y[31];
 assign c=carry&(~control[1]);
 
 //Result ka “reference” operand = a  hai ... 
-//🟢 CASE 1: ADD → (+ + → -) ❌
+// CASE 1: ADD → (+ + → -) 
 //Inputs:
 //control[0] = 0 (ADD)
 //a[31] = 0
 //b[31] = 0
 //sum[31] = 1   (wrong)
 //Check:
-//~control[1] = 1 ✅
-//(a[31]^sum[31]) = 0^1 = 1 ✅ (sign flipped)
-//~(0 ^ 0 ^ 0) = ~(0) = 1 ✅ (same sign inputs)
-//👉 Final:
-//o = 1 → overflow ✔
-//🟢 CASE 2: ADD → (- - → +) ❌
+//~control[1] = 1 
+//(a[31]^sum[31]) = 0^1 = 1  (sign flipped)
+//~(0 ^ 0 ^ 0) = ~(0) = 1  (same sign inputs)
+// Final:
+//o = 1 → overflow 
+//CASE 2: ADD → (- - → +) 
 //Inputs:
 //control[0] = 0
 //a[31] = 1
 //b[31] = 1
 //sum[31] = 0   (wrong)
 //Check:
-//~control[1] = 1 ✅
-//(1^0) = 1 ✅
-//~(0 ^ 1 ^ 1) = ~(0) = 1 ✅
-//👉 Final:
-//o = 1 → overflow ✔
+//~control[1] = 1 
+//(1^0) = 1 
+//~(0 ^ 1 ^ 1) = ~(0) = 1 
+//Final:
+//o = 1 → overflow 
 //CASE 3: SUB → (+ - → -) 
 //Inputs:
 //control[0] = 1 (SUB)
@@ -77,7 +77,7 @@ assign c=carry&(~control[1]);
 //(0^1) = 1 
 //~(1 ^ 0 ^ 1) = ~(0) = 1  (different signs)
 // Final:
-//o = 1 → overflow ✔
+//o = 1 → overflow 
 //CASE 4: SUB → (- + → +) 
 //Inputs:
 /*control[0] = 1
