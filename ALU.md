@@ -45,4 +45,4 @@ assign o=(~control[1]) & (a[31]^sum[31]) & (~(control[0]^a[31]^b[31]));// overfl
 
 //Zero extension
 assign e={{31{1'b0}},sum[31]};
-endmodule```
+endmodule
