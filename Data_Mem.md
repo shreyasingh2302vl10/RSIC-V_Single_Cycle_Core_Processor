@@ -1,3 +1,7 @@
+# DATA MEMORY
+![Processor Screenshot](https://github.com/shreyasingh2302vl10/RSIC-V_Single_Cycle_Core_Processor/blob/93d6fbc3b7cf5cd7f1af3ca5520573826007eaa6/Screenshot%202026-03-29%20142322.png
+)
+
 ```verilog
 `timescale 1ns / 1ps
 module Data_Mem(A,WD,clk,WE,RD,rst);
