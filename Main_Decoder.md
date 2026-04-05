@@ -23,4 +23,4 @@ assign ImmSrc[0]= (op==7'b0100011)?1'b1:1'b0;
 assign ALUOp[0]= (op==7'b1100011)?1'b1:1'b0;
 assign ALUOp[1]= (op==7'b0110011)?1'b1:1'b0;
 
-endmodule```
+endmodule
