@@ -9,7 +9,7 @@
 module alu_decoder(ALUOp,op5,funct3,funct7,control);
 input op5,funct7;
 input [2:0]funct3;
-output [1:0]ALUOp;
+input [1:0]ALUOp;
 output [2:0]control;
 
 wire [1:0]concatenation;
